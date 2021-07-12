@@ -16,7 +16,7 @@ theme: jekyll-agency
 url    : "https://taehoon95.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "" # the subpath of your site, e.g. /blog
 
-title      : Your Awesome Website
+title      : Taehoon Lee
 email      : leeth950304@gmail.com #this is also the email contact forms will go to
 description: "Site description"
 author     : taehoonLee
