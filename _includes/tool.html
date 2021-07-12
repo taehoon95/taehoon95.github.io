@@ -12,14 +12,15 @@
       </div>
 	  
       <div class="row text-center">
-	  {% for service in site.data.sitetext[site.locale].tool.list %}
+	  {% for skills in site.data.sitetext[site.locale].tool.list %}
         <div class="col-md-4">
           <span class="fa-stack fa-4x">
-            <i class="fas fa-circle fa-stack-2x text-primary"></i>
-            <i class="{{ service.icon | default: "fas fa-shopping-cart" }} fa-stack-1x fa-inverse"></i>
+            <!-- <i class="fas fa-circle fa-stack-2x text-primary"></i>
+            <i class="{{ skills.icon | default: "fas fa-shopping-cart" }} fa-stack-1x fa-inverse"></i> -->
+            <img class="mx-auto rounded-circle" src="{{ skills.image }}" alt="">
           </span>
-          <h4 class="service-heading">{{ service.title | markdownify }}</h4>
-          {% if service.desc %}<div class="text-muted">{{ service.desc | markdownify }}</div>{% endif %}
+          <h4 class="skills-heading">{{ skills.title | markdownify }}</h4>
+          {% if skills.desc %}<div class="text-muted">{{ skills.desc | markdownify }}</div>{% endif %}
         </div>
 	  {% endfor %}
       </div>
