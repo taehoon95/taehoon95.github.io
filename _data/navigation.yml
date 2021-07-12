@@ -11,12 +11,12 @@
 # -----------------
 en: &DEFAULT_EN
   nav:
+    - title: "Team"
+      section: team
     - title: "Services"
       section: services
     - title: "Portfolio"
       section: portfolio
-    - title: "Team"
-      section: team
     - title: "Contact"
       section: contact
     - title: "Git"

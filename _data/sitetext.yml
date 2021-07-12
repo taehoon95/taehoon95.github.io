@@ -14,7 +14,7 @@ en: &DEFAULT_EN
     title: 반갑습니다
     text: 
     button: 소개를 시작합니다.
-    buttonlink: "#services"
+    buttonlink: "#team"
 
   team:
     title: "Welcome to my Portfolio"
