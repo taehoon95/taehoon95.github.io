@@ -35,33 +35,30 @@ en: &DEFAULT_EN
 
   tool:
     title: "Tech skills"
-    text: ""
+    text: "저는 지금 이런 기술들을 사용할 수 있습니다."
     section: tool
     list:
       - title: "Java"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+        desc: "Java 기본적인 문법에 대해 알고 있으며 스윙프로젝트를 통해 활용 능력을 키웠습니다"
         icon: fas fa-shopping-cart #find more at https://fontawesome.com/icons
       - title: "Spring"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+        desc: "Spring MVC, Restful API를 이용하여 웹 프로젝트를 개발하였습니다&nbsp; 주문기능에서 트랜잭션, 유효성 검사를 했습니다"
         icon: fas fa-laptop
       - title: "Javascript"
-        desc: "Your description here, full **Markdown** support"
-        icon: fab fa-markdown
-      - title: "Restful API"
-        desc: "Your description here, full **Markdown** support"
+        desc: "기본적인 문법을 공부한 후 jQuery를 이용하여 restful API와 AJAX를 사용할 수 있습니다"
         icon: fab fa-markdown
       - title: "MySQL"
-        desc: "Your description here, full **Markdown** support"
+        desc: "기본적인 문법을 익힌 후 Mybatis를 이용하여 동적 SQL 문을 사용할 수 있습니다"
         icon: fab fa-markdown
       - title: "HTML5"
-        desc: "Your description here, full **Markdown** support"
+        desc: "헤더,푸터,섹션등을 원하는 곳에 배치하여 뼈대를 구성할 수 있습니다"
         icon: fab fa-markdown
       - title: "CSS3"
-        desc: "Your description here, full **Markdown** support"
+        desc: "기본적인 문법을 익힌 후 화려하진 않지만 깔끔하게 보이도록 할 수 있습니다"
         icon: fab fa-markdown
       - title: "Github"
-        desc: "Your description here, full **Markdown** support"
-        icon: fab fa-markdown        
+        desc: "팀 프로젝트를 브랜치를 이용해 협업하여 관리하였습니다. 깃허브 서버를 이용하여 포트폴리오 사이트도 관리하고 있습니다"
+        icon: fab fa-markdown      
 
   portfolio:
     title: "Portfolio"
