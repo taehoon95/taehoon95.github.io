@@ -14,17 +14,17 @@ en: &DEFAULT_EN
     title: 반갑습니다
     text: 
     button: 소개를 시작합니다.
-    buttonlink: "#team"
+    buttonlink: "#about"
 
-  team:
+  about:
     title: "Welcome to my Portfolio"
     text: ""
     subtext: 
-    section: team
+    section: about
     people:
       - name: "이태훈"
         role: "웹 개발자(java, spring)"
-        image: assets/img/team/taehoonchar.jpg
+        image: assets/img/about/taehoonchar.jpg
         social:
           - url: https://twitter.com
             icon: fab fa-twitter
