@@ -33,10 +33,10 @@ en: &DEFAULT_EN
           - url: https://linkedin.com
             icon: fab fa-linkedin-in
 
-  services:
-    title: "Services"
+  tool:
+    title: "Tool"
     text: ""
-    section: services
+    section: tool
     list:
       - title: "E-Commerce"
         desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."

@@ -14,7 +14,7 @@ en: &DEFAULT_EN
     - title: "About"
       section: team
     - title: "Tool"
-      section: services
+      section: tool
     - title: "Portfolio"
       section: portfolio
     - title: "Contact"
