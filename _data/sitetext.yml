@@ -13,8 +13,25 @@ en: &DEFAULT_EN
   header:
     title: 반갑습니다
     text: 
-    button: 아래로
+    button: 소개를 시작합니다.
     buttonlink: "#services"
+
+  team:
+    title: "Welcome to my Portfolio"
+    text: ""
+    subtext: 
+    section: team
+    people:
+      - name: "이태훈"
+        role: "웹 개발자(java, spring)"
+        image: assets/img/team/taehoonchar.jpg
+        social:
+          - url: https://twitter.com
+            icon: fab fa-twitter
+          - url: https://facebook.com
+            icon: fab fa-facebook-f
+          - url: https://linkedin.com
+            icon: fab fa-linkedin-in
 
   services:
     title: "Services"
@@ -33,7 +50,7 @@ en: &DEFAULT_EN
 
   portfolio:
     title: "Portfolio"
-    text: "Lorem ipsum dolor sit amet consectetur."
+    text: ""
     section: portfolio
     closebutton: "Close Project"
 
@@ -54,23 +71,6 @@ en: &DEFAULT_EN
       - title: "Creative Market"
         url: https://github.com/raviriley/agency-jekyll-theme
         logo: assets/img/clients/creative-market.jpg
-
-  team:
-    title: "Welcome to my Portfolio"
-    text: ""
-    subtext: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported.
-    section: team
-    people:
-      - name: "이태훈"
-        role: "웹 개발자(java, spring)"
-        image: assets/img/team/taehoonchar.jpg
-        social:
-          - url: https://twitter.com
-            icon: fab fa-twitter
-          - url: https://facebook.com
-            icon: fab fa-facebook-f
-          - url: https://linkedin.com
-            icon: fab fa-linkedin-in
 
 
   contact:
