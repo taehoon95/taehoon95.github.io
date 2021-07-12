@@ -37,11 +37,6 @@ en: &DEFAULT_EN
     section: portfolio
     closebutton: "Close Project"
 
-  about:
-    title: "About Us"
-    text: "our story"
-    section: about
-
   clients:
     section: clients
     max-height: 100px
