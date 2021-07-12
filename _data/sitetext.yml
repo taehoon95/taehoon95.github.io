@@ -34,19 +34,34 @@ en: &DEFAULT_EN
             icon: fab fa-linkedin-in
 
   tool:
-    title: "Tool"
+    title: "Tech skills"
     text: ""
     section: tool
     list:
-      - title: "E-Commerce"
+      - title: "Java"
         desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
         icon: fas fa-shopping-cart #find more at https://fontawesome.com/icons
-      - title: "Responsive Design"
+      - title: "Spring"
         desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
         icon: fas fa-laptop
-      - title: "[Markdown](https://en.wikipedia.org/wiki/Markdown)"
+      - title: "Javascript"
         desc: "Your description here, full **Markdown** support"
         icon: fab fa-markdown
+      - title: "Restful API"
+        desc: "Your description here, full **Markdown** support"
+        icon: fab fa-markdown
+      - title: "MySQL"
+        desc: "Your description here, full **Markdown** support"
+        icon: fab fa-markdown
+      - title: "HTML5"
+        desc: "Your description here, full **Markdown** support"
+        icon: fab fa-markdown
+      - title: "CSS3"
+        desc: "Your description here, full **Markdown** support"
+        icon: fab fa-markdown
+      - title: "Github"
+        desc: "Your description here, full **Markdown** support"
+        icon: fab fa-markdown        
 
   portfolio:
     title: "Portfolio"
