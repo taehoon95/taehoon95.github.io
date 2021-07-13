@@ -1,8 +1,16 @@
 // Styling for the portfolio section
 
 .projDes{
-	display: block;
 	opacity: 0;
+	position: absolute;
+    left: 17px;
+    top: 0px;
+    display: block;
+    background: black;
+    color: white;
+    width: 92%;
+    height: 100%;
+    opacity: 0.4;
 }
 
 .projDes:hover{
