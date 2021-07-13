@@ -10,7 +10,7 @@
     <div class="row">
 	{% for project in site.portfolio %}
       <div class="col-md-4 col-sm-6 portfolio-item">
-      	<a href="#">
+      	<a href="{{ project.caption.pdf }}">
        		<img class="img-fluid projImg" src="{{ project.caption.thumbnail }}" alt="">
         	<span class="projDes">{{ project.caption.description}}</span>
         </a>
