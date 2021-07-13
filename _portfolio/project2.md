@@ -1,13 +1,14 @@
 ---
-title: Project Name
-subtitle: Lorem ipsum dolor sit amet consectetur.
-image: https://raw.githubusercontent.com/BlackrockDigital/startbootstrap-agency/master/src/assets/img/portfolio/02-full.jpg
-alt: Keep Exploring
+title: 쇼핑몰 프로젝트
+subtitle: Java swing 개인 프로젝트
+image: assets/img/portfolio/teamproj.jpg
+alt: shoppingmall
 
 caption:
   title: 쇼핑몰 프로젝트
   subtitle: Java swing 개인 프로젝트
-  thumbnail: https://raw.githubusercontent.com/BlackrockDigital/startbootstrap-agency/master/src/assets/img/portfolio/02-thumbnail.jpg
+  description : 검색기능 과 페이징을 적용하여 쉽게 원하는 제품을 찾을 수 있도록 하였습니다.그리고 장바구니 기능을 구현하며 재고에 맞게 수량 변경 및 계산이 가능하게 했습니다. 그리고 주문 기능에서는 트랜잭션, 유효성 검사를 생각하여 구현 했습니다 
+  thumbnail: assets/img/portfolio/teamproj.jpg
 ---
 Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!
 
