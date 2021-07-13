@@ -1,14 +1,22 @@
 // Styling for the portfolio section
+
+.projDes{
+	position: absolute;
+}
+
 #portfolio {
   .portfolio-item {
+	position: relative;  
     right: 0;
     margin: 0 0 15px;
+    
     .portfolio-link {
       position: relative;
       display: block;
       max-width: 400px;
       margin: 0 auto;
       cursor: pointer;
+      
       .portfolio-hover {
         position: absolute;
         width: 100%;
@@ -18,9 +26,10 @@
         transition: all ease 0.5s;
         opacity: 0;
         background: fade-out($primary, .1);
-        &:hover {
-          opacity: 1;
-        }
+	        &:hover {
+	          opacity: 1;
+	        }
+        
         .portfolio-hover-content {
           font-size: 20px;
           position: absolute;
@@ -30,13 +39,16 @@
           margin-top: -12px;
           text-align: center;
           color: white;
+          
           i {
             margin-top: -12px;
           }
+          
           h3,
           h4 {
             margin: 0;
           }
+          
         }
       }
     }
@@ -70,6 +82,7 @@
   }
 }
 
+/*안씀*/
 .portfolio-modal {
   .modal-dialog {
     margin: 1rem;
@@ -102,6 +115,8 @@
       cursor: pointer;
     }
   }
+  
+  /*안씀*/
   .close-modal {
     position: absolute;
     top: 25px;
@@ -113,8 +128,10 @@
     &:hover {
       opacity: 0.3;
     }
+    
+    
     .lr {
-      /* Safari and Chrome */
+      /* Safari and Chrome 호환 관련*/
       z-index: 1051;
       width: 1px;
       height: 75px;

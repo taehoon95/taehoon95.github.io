@@ -10,9 +10,9 @@
     <div class="row">
 	{% for project in site.portfolio %}
       <div class="col-md-4 col-sm-6 portfolio-item">
-      	<a href="http://localhost:8080/main">
-       		<img class="img-fluid" src="{{ project.caption.thumbnail }}" alt="">
-        	<span style="color: black;">{{ project.caption.description}}</span>
+      	<a href="#">
+       		<img class="img-fluid projImg" src="{{ project.caption.thumbnail }}" alt="">
+        	<span class="projDes" style="color: black; ">{{ project.caption.description}}</span>
         </a>
         <div class="portfolio-caption">
           <h4>{{ project.caption.title }}</h4>
