@@ -1,14 +1,20 @@
 ---
 title: 쇼핑몰 프로젝트
-subtitle: 팀프로젝트
-image: assets/img/portfolio/teamproj.jpg
+subtitle: Java swing 개인 프로젝트
+image: assets/img/portfolio/javaswing.jpg
 alt: shoppingmall
 
 caption:
   title: 쇼핑몰 프로젝트
-  subtitle: 팀프로젝트
-  description : 검색기능 과 페이징을 적용하여 쉽게 원하는 제품을 찾을 수 있도록 하였습니다.그리고 장바구니 기능을 구현하며 재고에 맞게 수량 변경 및 계산이 가능하게 했습니다. 그리고 주문 기능에서는 트랜잭션, 유효성 검사를 생각하여 구현 했습니다 
-  thumbnail: assets/img/portfolio/teamproj.jpg
+  subtitle: Java swing 개인 프로젝트
+  description : 자바를 이용해 데이터베이스 설계 부터 기능 구현 까지 한 첫 개인 프로젝트 입니다
+					트랜잭션, 예외처리, junit4 test를 사용하여 주문 ,제품관리, 회원관리 기능을  모두 구현 하였습니다
+  thumbnail: assets/img/portfolio/javaswing.jpg
 ---
-Use this area to describe your project. **Markdown** supported. This entry (project1.md) uses links for the image sources. All other projects in the portfolio use local images. Both work just fine! Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!
+
+{:.list-inline}
+- Date: January 2017
+- Client: Explore
+- Category: Graphic Design
 
