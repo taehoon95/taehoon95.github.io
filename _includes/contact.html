@@ -56,7 +56,9 @@
         </form> -->
 	    <form action="https://formspree.io/f/xayadoon" style="display: flex; flex-direction: column; align-items: center;" method="POST">
 				  <label>
-					  	<input type="email" name="_replyto" placeholder="이메일을 입력해주세요">
+						<input name="_replyto" class="form-control" id="email" type="email"
+                  placeholder="{{ site.data.sitetext[site.locale].contact.email | default: "Email" }}"
+                  required="required" data-validation-required-message="{{ site.data.sitetext[site.locale].contact.email-validation | default: "Please enter your email address." }}">					  	
 				  </label>
 				  <label>
 					  	<textarea name="message" style="padding: 12px;"></textarea>
